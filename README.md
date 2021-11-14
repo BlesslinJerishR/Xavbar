@@ -1,3 +1,3 @@
 ## Xavbar
-- Just a navbar with advanced functional UI/UX.
+- Just a navbar with Advanced Functional UI/UX.
 #### **[ Developer : Blesslin Jerish R ]**
