@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Title -->
     <title>Xavbar - An navbar with Advanced Functional UI/UX.</title>
+    
+    <!-- To Set Title Bar Icon Image -->
+    <link rel="icon" href="/imgs/civil.png" type="image/icon png">
 
     <!-- Bootstrap 5 -->
     <link
@@ -13,6 +18,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
+    <!-- Gfonts Robot -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- मेरा CSS 3 -->
     <link rel="stylesheet" href="style.css" />
@@ -31,10 +41,54 @@
             height="28"
             class="d-inline-block align-text-top"
           />
-          &nbsp; Xavbar
+          &nbsp; <span style="font-family: 'Roboto', sans-serif !important;">Xavbar</span></a>
         </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Expertise</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </nav>
+
+    <!-- मेरा Footer  -->
+    <!-- Itha Remove panravan Aalu Oru Item daw -->
+    <footer id="foot" font-family: 'Roboto'">
+    <p align="center" style="font-size: 16px !important; position: relative !important; top: 570px !important; float: right; padding-right: 25px">
+      <img src="/sign/jsg.png" height="30px" style="position: relative; left: 0px; top: -2px;">&nbsp; <a href="https://github.com/BlesslinJerishR/" target="_blank" rel="nofollow noopener" style="text-decoration: none !important;"><span style="color: #00FF00;">Blesslin Jerish R</span></a>
+    </p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

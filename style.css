@@ -1,4 +1,11 @@
+/* Gfonts Poopins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html,
 body {
     background: #1d1e21;
+    background-image: url('/imgs/solar.png');
+    background-size: cover;
+    font-family: 'Poppins',
+        sans-serif;
 }
