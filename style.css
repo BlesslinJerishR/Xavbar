@@ -5,6 +5,8 @@ html,
 body {
     background: #1d1e21;
     background-image: url('/imgs/solar.png');
+    /* Fallback of BG TEXT */
+    /* background-image: url('/imgs/solar1.png'); */
     background-size: cover;
     font-family: 'Poppins',
         sans-serif;
